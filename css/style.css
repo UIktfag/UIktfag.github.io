@@ -1,0 +1,75 @@
+
+/*scroller*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background:#333333;
+}
+::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: crimson;
+}
+
+/*overskriftene sin formatering*/
+h1 {
+    font-size: 10vw;
+    font-style: oblique;
+}
+
+/*Teksten sin formatering*/
+p {
+  font:message-box;
+  font-size: 20px;
+}
+
+/*formatering for bildene*/
+img {
+    max-width:90%;height:50vw;margin: 5%;
+}
+
+/*navigasjonmenyen*/
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: crimson;
+  text-align: center;
+  padding: 14px 8vw;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  -webkit-text-fill-color: orange;
+}
+
+/*formatering for url*/
+a {
+  font-size:20px;
+}
+
+/*"Variabel" for kontaklinkene sin formatering*/
+.link_row {
+  display: flex;
+  gap: 50px;
+}
